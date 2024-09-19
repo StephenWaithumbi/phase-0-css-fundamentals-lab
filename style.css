@@ -2,4 +2,80 @@ body {
   width: 100%;
   height: 100%;
   margin: 0;
+  text-align: center;
+}
+
+header {
+  background-color: white;
+  padding: 20px;
+  
+}
+h1{
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.navbar{
+  margin-top: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: blue;
+  font-size: 16px;
+  padding: 10px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+#featured-property{
+  margin: 20% auto;
+  width: 70%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#featured-property p {
+  text-align: center;
+  margin: 30px 10% 0 10%;
+}
+#details {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ff0000;
+  color: white;
+  padding: 20px;
+  margin-top: 0;
+  color: black;
+}
+
+#details div {
+  width: 20%;
+  text-align: left;
+}
+
+#details a {
+  color: blue;
+  text-decoration: underline;
+}
+
+#details h3 {
+  margin-top: 0;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+#details a:hover{
+  text-decoration: underline;
+}
+
+
+a:link {
+  color: blue;
+}
+a:visited {
+  color: purple;
 }
